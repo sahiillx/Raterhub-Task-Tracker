@@ -97,7 +97,7 @@
 
             stopwatchBox.innerHTML = `
         <div style="display: flex; justify-content: space-between;">
-            <span>⏱️ UT Today:</span>
+            <span>⏱️ Stopwatch:</span>
             <span id="stopwatchDisplay" style="font-weight: bold;">00:00:00</span>
         </div>
     `;
@@ -278,7 +278,7 @@
 
     function addResetButton() {
         const btn = document.createElement('button');
-        btn.textContent = '🔄 Reset All';
+        btn.textContent = 'Reset All';
         btn.style.marginTop = '10px';
         btn.style.width = '100%';
         btn.style.backgroundColor = '#dc3545';

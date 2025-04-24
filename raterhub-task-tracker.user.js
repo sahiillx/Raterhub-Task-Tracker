@@ -173,8 +173,8 @@
         div.id = 'taskCounterV2';
         // Styles...
         div.style.position = 'fixed';
-        div.style.bottom = '80px';
-        div.style.right = '20px';
+        div.style.top = '40px';
+        div.style.right = '19px';
         div.style.width = '200px';
         div.style.background = '#f8f9fa';
         div.style.border = '1px solid #ccc';
